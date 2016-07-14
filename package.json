@@ -1,6 +1,6 @@
 {
-  "name": "loopback-testing",
-  "version": "1.2.0",
+  "name": "loopback-testingnext",
+  "version": "1.1.0",
   "description": "Utilities for testing LoopBack applications",
   "main": "index.js",
   "scripts": {
@@ -8,17 +8,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/strongloop/loopback-testing"
+    "url": "git+https://github.com/sqlwwx/loopback-testing"
   },
   "author": "Ritchie Martori",
   "dependencies": {
-    "async": "~0.9.0",
-    "chai": "^1.9.2",
-    "supertest": "~0.13.0"
+    "async": "^0.9.2",
+    "chai": "^1.10.0",
+    "supertest": "^0.13.0"
   },
   "devDependencies": {
-    "loopback": "^2.2.0",
-    "mocha": "~1.21.4"
+    "loopbacknext": "^2.29.1",
+    "mocha": "^1.21.5"
   },
   "license": "MIT"
 }
